@@ -4,7 +4,7 @@
 
 # Slack to GitHub Issues workflow
 
-This workflow allows creating a GitHub Issue directly from slack.
+This workflow allows creating a GitHub Issue directly from slack, it uses the [Deno GitHub Sample app](https://github.com/slack-samples/deno-github-functions) which contains the steps needed to deploy app on a Slack workspace and locally.
 
 ## Viewing deployed app logs 
 Once your app is deployed, all calls to `console.log` will be captured remotely, and will be emitted—along with the last seven days of your app's activity—only via the `slack activity` command.
