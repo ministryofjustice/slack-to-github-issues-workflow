@@ -10,7 +10,8 @@ This workflow allows creating a GitHub Issue directly from slack, it uses the [D
 
 Follow the setup instructions and deployment options [here](https://github.com/slack-samples/deno-github-functions#setup)
 
-## Viewing deployed app logs 
+## Viewing deployed app logs
+
 Once your app is deployed, all calls to `console.log` will be captured remotely, and will be emitted—along with the last seven days of your app's activity—only via the `slack activity` command.
 
 After your app has been deployed and you've invoked some of its workflows, run `slack activity`, then select the workspace you installed your app to. You'll see both `console.log` output as well as all the things your app has been up to.
