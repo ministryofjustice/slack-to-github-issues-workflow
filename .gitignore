@@ -8,3 +8,7 @@ env/
 *.code-workspace
 *.sha256
 terraform.tfstate
+dist
+package
+.slack/apps.dev.json
+.slack/apps.json
